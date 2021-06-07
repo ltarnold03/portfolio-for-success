@@ -1,0 +1,103 @@
+/* Scrolbar Style Begins */
+
+html {
+    scroll-behavior: smooth;
+  }
+ 
+  
+  body::-webkit-scrollbar {
+    width: 1em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(219, 127, 231); 
+}   
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(20, 197, 159);
+    background-size: 15px;
+    border-radius: 10px;
+  } 
+  /*
+  body::-webkit-scrollbar-button {
+    background-image: url('');
+    min-height: 16px;
+    background-size: 1em;
+  } */
+  
+  /* Scrolbar Style Ends */
+
+  body {
+    background: rgb(219, 127, 231);
+  }
+  .column {
+    letter-spacing: 2px;
+  }
+  h1, .me, .work, .contact {
+    background-color: rgb(20, 197, 159);
+    border: solid 5px;
+    border-color: rgb(18, 131, 236);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+/* nav section begins */
+  header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      margin: 1em;
+      padding: 0px;
+  }
+
+  header nav ul a {
+      font-size: 20px;
+      font-family: cursive;
+      color: white;
+  }
+
+  header nav ul a:hover {
+      background: white;
+      color: rgb(219, 127, 231);
+      border: double;
+      border-radius: 2px;
+      margin: 2px;
+      padding: 2px;
+  }
+  /* nav section ends */
+
+  p {
+      letter-spacing: 0;
+  }
+
+  /* Media Queries begins */
+/* Size of Screen Starting @ 575px */
+
+@media screen and (max-width: 575px) {
+    .work img {
+        width: 400px;
+        height: 200px;
+    }
+  }
+  
+  /* Size of Screen Starting @ 768px */
+  
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .work img {
+        width: 500px;
+        height: 300px;
+    }
+  }
+
+  /* Size of Screen Starting @ 980px */
+  
+  @media screen and (min-width: 769px) and (max-width: 980px) {
+
+  };
+  
+  /* Media Queries Ends */
